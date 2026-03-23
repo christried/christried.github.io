@@ -1,0 +1,80 @@
+:root, [data-bs-theme=light] {
+  --bs-primary: #0F1B26;
+  --bs-primary-rgb: 15,27,38;
+  --bs-primary-text-emphasis: #060B0F;
+  --bs-primary-bg-subtle: #CFD1D4;
+  --bs-primary-border-subtle: #9FA4A8;
+  --bs-secondary: #F2E3D5;
+  --bs-secondary-rgb: 242,227,213;
+  --bs-secondary-text-emphasis: #615B55;
+  --bs-secondary-bg-subtle: #FCF9F7;
+  --bs-secondary-border-subtle: #FAF4EE;
+  --bs-body-font-family: 'Patua One', serif;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #0F1B26;
+  --bs-btn-border-color: #0F1B26;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0D1720;
+  --bs-btn-hover-border-color: #0C161E;
+  --bs-btn-focus-shadow-rgb: 219,221,222;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0C161E;
+  --bs-btn-active-border-color: #0B141D;
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0F1B26;
+  --bs-btn-disabled-border-color: #0F1B26;
+}
+
+.btn-outline-primary {
+  --bs-btn-color: #0F1B26;
+  --bs-btn-border-color: #0F1B26;
+  --bs-btn-focus-shadow-rgb: 15,27,38;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #0F1B26;
+  --bs-btn-hover-border-color: #0F1B26;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #0F1B26;
+  --bs-btn-active-border-color: #0F1B26;
+  --bs-btn-disabled-color: #0F1B26;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #0F1B26;
+}
+
+.btn-secondary {
+  --bs-btn-color: #000000;
+  --bs-btn-bg: #F2E3D5;
+  --bs-btn-border-color: #F2E3D5;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #F4E7DB;
+  --bs-btn-hover-border-color: #F3E6D9;
+  --bs-btn-focus-shadow-rgb: 36,34,32;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #F5E9DD;
+  --bs-btn-active-border-color: #F3E6D9;
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #F2E3D5;
+  --bs-btn-disabled-border-color: #F2E3D5;
+}
+
+.btn-outline-secondary {
+  --bs-btn-color: #F2E3D5;
+  --bs-btn-border-color: #F2E3D5;
+  --bs-btn-focus-shadow-rgb: 242,227,213;
+  --bs-btn-hover-color: #000000;
+  --bs-btn-hover-bg: #F2E3D5;
+  --bs-btn-hover-border-color: #F2E3D5;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: #F2E3D5;
+  --bs-btn-active-border-color: #F2E3D5;
+  --bs-btn-disabled-color: #F2E3D5;
+  --bs-btn-disabled-bg: transparent;
+  --bs-btn-disabled-border-color: #F2E3D5;
+}
+
+.swiper-vertical {
+  max-height: 100vh;
+}
+

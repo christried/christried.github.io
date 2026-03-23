@@ -1,0 +1,211 @@
+.project-card {
+  width: 95%;
+  max-width: 900px;
+  margin: 2rem auto;
+  border: 1px solid #212529;
+  position: relative;
+  transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  overflow: hidden;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+}
+
+.image-container {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+  background: #0f1b26;
+  border-bottom: 3px solid #212529;
+}
+
+.image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top;
+  filter: brightness(0.9);
+  -webkit-mask-image: radial-gradient( circle at center, black 40%, transparent 95% );
+  mask-image: radial-gradient(circle at center, black 40%, transparent 95%);
+}
+
+.project-content {
+  padding: 1.25rem;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.project-title {
+  font-family: "Patua One", serif;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.badge {
+  background-color: var(--navy) !important;
+  color: #f2e3d5 !important;
+  padding: 8px 16px;
+  margin-right: 8px;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.badge:hover {
+  border: 1px solid #212529;
+  transform: scale(1.1);
+}
+
+.project-links {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.project-link {
+  text-decoration: none;
+  color: #212529;
+  font-weight: bold;
+  font-size: 1.1rem;
+  transition: opacity 0.2s;
+}
+
+.project-link:hover {
+  opacity: 0.7;
+}
+
+.project-link i {
+  margin-right: 8px;
+  font-size: 1.2rem;
+}
+
+.mini-project-card {
+  border: 3px solid #212529;
+  box-shadow: 4px 4px 0px #212529;
+  transition: all 0.4s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 15px 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+  transition: all 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.mini-project-card:hover {
+  transform: scale(1.04);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.3);
+}
+
+.mini-project-card .image-container {
+  height: 200px;
+  border-bottom: 3px solid #212529;
+}
+
+.mini-project-card .image-container img {
+  transition: transform 0.6s ease;
+}
+
+.mini-project-card:hover .image-container img {
+  transform: scale(1.1);
+}
+
+.mini-project-card .project-content {
+  padding: 1.25rem;
+  flex-grow: 1;
+}
+
+.mini-project-card .project-title {
+  font-size: 1.4rem;
+}
+
+.swiper {
+  padding-top: 20px !important;
+  padding-bottom: 60px !important;
+  overflow: hidden !important;
+}
+
+.swiper-container-wrapper {
+  position: relative;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+.swiper-pagination {
+  bottom: 0px !important;
+  position: relative !important;
+  margin-top: 30px;
+}
+
+.swiper-pagination-bullet {
+  width: 12px !important;
+  height: 12px !important;
+  background-color: #f2e3d5 !important;
+  opacity: 0.4;
+  transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+  opacity: 1;
+  background-color: #d9ac9c !important;
+  transform: scale(1.3);
+}
+
+.connect-card {
+  background-color: var(--cream);
+  border: 3px solid var(--black);
+  padding: 1.5rem;
+  box-shadow: 6px 6px 0px var(--black);
+  border-radius: var(--standard-radius);
+}
+
+.connect-title {
+  font-family: "Patua One", serif;
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-bottom: 2px solid var(--black);
+  display: block;
+  color: var(--navy);
+  padding-bottom: 5px;
+}
+
+.social-link-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: var(--navy);
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+/* Hover effect */
+
+.social-link-item:hover {
+  background-color: var(--rose);
+  border-color: var(--black);
+  transform: translate(-2px, -2px);
+  box-shadow: 4px 4px 0px var(--black);
+}
+
+.social-link-item i {
+  font-size: 1.4rem;
+}
+
+.social-link-item {
+}
+
+.social-link-item {
+}
+
